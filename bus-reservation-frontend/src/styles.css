@@ -1,0 +1,101 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  color: #2f3640;
+  margin: 0;
+  padding: 0;
+}
+
+h3, h5 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Input & Button Styles */
+input.form-control,
+button.btn {
+  border-radius: 6px;
+  padding: 10px;
+}
+
+button.btn-primary {
+  background-color: #27ae60;
+  border: none;
+}
+
+button.btn-primary:hover {
+  background-color: #219653;
+}
+
+button.btn-outline-success {
+  color: #27ae60;
+  border-color: #27ae60;
+}
+
+button.btn-outline-success:hover {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+button.btn-danger {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+button.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+}
+
+/* Seat grid */
+.d-flex {
+  display: flex;
+}
+
+.d-flex.mb-2 button {
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+}
+
+/* Booking form */
+form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+form label {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.list-group-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* Popup window styles (optional inline suggestion) */
